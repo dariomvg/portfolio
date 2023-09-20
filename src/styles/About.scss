@@ -1,0 +1,55 @@
+.about-me {
+  width: 70%;
+  height: auto;
+  padding: 50px 10px 50px 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  .title-about {
+    font-size: 40px;
+    color: #64ccc5;
+  }
+
+  .section-about {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+
+    .details {
+      font-size: 20px;
+      font-weight: 500;
+      color: #2f7772;
+    }
+    .button-cv {
+      padding: 12px;
+      border: none;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #ffffff;
+      border-radius: 5px;
+      background-color: #053b50;
+    }
+  }
+}
+
+.about-me.dark {
+  .section-about {
+    .button-cv {
+      background-color: #64ccc5;
+      color: #000;
+    }
+    .details {
+      color: #c2c2c2;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    width: 100%;
+  }
+}
