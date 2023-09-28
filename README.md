@@ -25,7 +25,7 @@
 
 3. Instalar dependencias adicionales (react-router-dom)
 
-`npm install --save-dev sass` ó `yarn add --save-dev sass`
+`npm install --save-dev sass` ó `yarn add --save-dev sass`  
 `npm install aos` ó `yarn add aos`
 
 ###Inicia la aplicación:
