@@ -17,14 +17,15 @@ export function About() {
   };
   return (
     <>
-      <section data-aos="fade-right" className={`about-me ${theme ? "dark" : ""}`}>
+      <section className={`about-me ${theme ? "dark" : ""}`}>
         <section className="section-about">
-          <h2 className="title-about">About Me</h2>
+          <h2 className="title-about">Sobre mí</h2>
           <p className="details">
-            Hello, my name is Dario, I am a Front-end web developer, currently
-            studying how to improve application performance and how to be as
-            optimal as possible. The next step is to study back-end, but I want
-            to specialize in front-end.
+            Hola, me llamo Dario.Soy <b>desarrollador web Front-end</b>, actualmente
+            estudiando <b>back-end</b> con SQL, MySQL, Nodejs y Express, <b>ingles</b> y
+            mejorando sobre la <b>performance</b> en la creación de una aplicación.
+            Quíero especializarme en front-end pero aprender back-end y avanzar 
+            hacía el puesto de <b>desarrollador web fullStack.</b>
           </p>
           <button className="button-cv" onClick={openPdf}>
             Currículum

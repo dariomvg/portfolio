@@ -2,55 +2,71 @@
   width: 70%;
   height: auto;
   margin: auto;
-  padding: 10px 10px 80px 10px;
+  padding: 10px;
   display: grid;
-  gap: 20px;
-
+  gap: 30px;
+  padding-bottom: 100px;
   .title-skills {
     font-size: 40px;
-    color: #64ccc5;
+    color: #646cff;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
   }
   .section-list {
     .list-tecnologies {
       width: 100%;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      .item-tecnology:nth-child(1) {
+        animation-delay: 0.1s;
+      }
+      .item-tecnology:nth-child(2) {
+        animation-delay: 0.3s;
+      }
+      .item-tecnology:nth-child(3) {
+        animation-delay: 0.1s;
+      }
+      .item-tecnology:nth-child(4) {
+        animation-delay: 0.3s;
+      }
+      .item-tecnology:nth-child(5) {
+        animation-delay: 0.1s;
+      }
+      .item-tecnology:nth-child(6) {
+        animation-delay: 0.3s;
+      }
+      .item-tecnology:nth-child(7) {
+        animation-delay: 0.1s;
+      }
       .item-tecnology {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         border-radius: 10px;
-        transition: 0.5s;
-        &:hover {
-          transition: 0.5s;
-          transform: translateY(-10px);
-          box-shadow: 0 0 40px #64ccc5;
-        }
+        transition: 0.5s;  
+        animation: 1s elementos alternate infinite; 
         span {
+          font-family: "Inconsolata", monospace;
           font-size: 20px;
-          font-weight: 700;
-          opacity: 0;
-          transition: 0.5s;
-          text-align: center;
-        }
-      }
-      .item-tecnology:hover {
-        span {
-          opacity: 1;
-          transition: 0.5s;
         }
       }
     }
   }
 }
 
-.section-skills.dark {
-  .title-skills {
-    font-size: 40px;
-    color: #64ccc5;
+@keyframes elementos {
+  to {
+    transform: translateY(0);
   }
+  from {
+    transform: translateY(-15px);
+  }
+}
+.section-skills.dark {
   .section-list {
     .list-tecnologies {
       .item-tecnology {
@@ -65,30 +81,11 @@
 @media (max-width: 768px) {
   .section-skills {
     width: 100%;
-    .section-list {
-      .list-tecnologies {
-        .item-tecnology {
-          span {
-            opacity: 1;
-          }
-        }
-      }
-    }
   }
 }
 
 @media (max-width: 425px) {
   .section-skills {
     width: 100%;
-    .section-list {
-      .list-tecnologies {
-        grid-template-columns: repeat(2, 1fr);
-        .item-tecnology {
-          span {
-            opacity: 1;
-          }
-        }
-      }
-    }
   }
 }

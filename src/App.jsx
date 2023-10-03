@@ -3,7 +3,6 @@ import "./styles/App.scss";
 import { Todo } from "./components/Todo";
 
 function App() {
-
   return (
     <ThemeProvider>
       <Todo />

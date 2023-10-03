@@ -1,104 +1,178 @@
 .main-home {
-  width: 100%;
+  width: 70%;
   height: 100vh;
-  position: relative;
-  padding: 10px;
+  margin: auto;
+
   .section-main {
     height: 100vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+
     .section-info {
+      width: 100%;
       display: grid;
-      gap: 16px;
+      gap: 12px;
+      font-family: "Inter", sans-serif;
       .section-title {
         font-size: 70px;
-        color: #0e6581;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(90deg, #ec4789, #ef4449, #e9ab0c);
+      }
+      .section-subtitle {
+        font-size: 60px;
+        color: #000;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: linear-gradient(90deg, #7be4b1, #0070f2, #8737ea);
       }
       .section-details {
+        width: 100%;
         font-size: 28px;
         font-weight: 500;
-        color: #176b87dc;
+        color: #646cff;
+        font-family: "Inconsolata", monospace;
         text-wrap: balance;
+      }
+      .box-enlaces {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        img {
+          transition: 0.5s;
+          &:hover {
+            transition: 0.5s;
+            transform: translateY(-10px);
+          }
+        }
       }
       .button-cv {
         width: 200px;
         padding: 10px;
-        border: none;
+        border: 1.5px solid #646cff;
         font-size: 20px;
         font-weight: bold;
         border-radius: 5px;
-        background-color: #053b50;
-        color: #ffffff;
+        color: #000;
         cursor: pointer;
         transition: 0.5s;
+        margin: auto;
+        font-family: system-ui, serif;
+        transition: 0.5s;
+        box-shadow: 0 0 10px #646cff;
         &:hover {
           transition: 0.5s;
-          box-shadow: 10px -10px 10px #64ccc5;
+          background-color: #646cff;
+          color: #fff;
         }
       }
     }
-    .box-enlaces {
+    .flecha {
       position: absolute;
-      left: 0;
-      bottom: 0;
-      display: flex;
-      flex-direction: column;
-      padding: 10px;
-      & img:hover {
-        transition: 0.5s;
-        transform: translateX(10px);
-      }
+      bottom: 10px;
+      animation: moverFlecha infinite alternate 0.5s;
     }
+  }
+}
+
+@keyframes moverFlecha {
+  to {
+    transform: translateY(0);
+  }
+  from {
+    transform: translateY(10px);
   }
 }
 
 .main-home.dark {
   .section-main {
     .section-info {
-      .section-title {
-        color: #64ccc5;
-      }
       .section-details {
-        color: #45948f;
+        color: #fff;
       }
-      .button-cv {
-        background-color: #64ccc5;
+       .button-cv {
+        background-color: #7be4b1;
         color: #000;
+        transition: .5s;
         &:hover {
-          box-shadow: 10px -10px 10px #046e97;
+          box-shadow: 0 0 20px #7be4b1;
+          transition: .5s;
         }
       }
     }
   }
 }
 
-@media (max-width: 1185px) {
+@media ((min-width: 581px) and (max-width: 1020px)) {
   .main-home {
+    width: 100%;
     .section-main {
-      .box-enlaces {
-        flex-direction: row;
+      .section-info {
+        .section-title {
+          font-size: 70px;
+        }
+        .section-subtitle {
+          font-size: 40px;
+        }
+        .section-details {
+          font-size: 25px;
+        }
+        .button-cv {
+          background-color: #646cff;
+        }
       }
     }
   }
 }
-
-@media (max-width: 610px) {
+@media (max-width: 580px) {
   .main-home {
+    width: 100%;
     .section-main {
       .section-info {
-        gap: 25px;
+        padding-top: 40px;
+        gap:10px;
+        .section-title {
+          font-size: 62px;
+        }
+        .section-subtitle {
+          font-size: 35px;
+        }
+        .section-details {
+          font-size: 25px;
+          text-wrap: balance;
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .main-home {
+    width: 100%;
+    .section-main {
+      .section-info {
+        padding-top: 40px;
+        gap:10px;
         .section-title {
           font-size: 50px;
         }
-        .section-details {
-          font-size: 23px;
+        .section-subtitle {
+          font-size: 25px;
         }
-      }
-      .box-enlaces {
-        flex-direction: row;
-        gap: 16px;
- 
+        .section-details {
+          font-size: 25px;
+          text-wrap: balance;
+        }
+
       }
     }
   }

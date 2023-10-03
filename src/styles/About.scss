@@ -7,31 +7,40 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-
+  padding-bottom: 100px;
   .title-about {
     font-size: 40px;
-    color: #64ccc5;
+    color: #646cff;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
   }
 
   .section-about {
     width: 100%;
     display: grid;
     gap: 20px;
-
     .details {
-      font-size: 20px;
+      font-size: 25px;
       font-weight: 500;
-      color: #2f7772;
+      color: #000000;
+      font-family: "Inconsolata", monospace;
+      text-align: start;
     }
     .button-cv {
       padding: 12px;
-      border: none;
+      border: 1.5px solid #646cff;
       font-size: 18px;
       font-weight: bold;
       cursor: pointer;
-      color: #ffffff;
+      color: #000;
       border-radius: 5px;
-      background-color: #053b50;
+      font-family: system-ui; 
+      box-shadow: 0 0 10px #646cff;
+      &:hover {
+        transition: background-color 0.5s;
+        background-color: #646cff;
+        color: #fff;
+      }
     }
   }
 }
@@ -39,11 +48,16 @@
 .about-me.dark {
   .section-about {
     .button-cv {
-      background-color: #64ccc5;
+      background-color: #7be4b1;
       color: #000;
+      transition: .5s;
+      &:hover {
+        box-shadow: 0 0 20px #7be4b1;
+        transition: .5s;
+      }
     }
     .details {
-      color: #c2c2c2;
+      color: #ffffff;
     }
   }
 }

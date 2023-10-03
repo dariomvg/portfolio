@@ -1,34 +1,56 @@
 .footer {
     width: 100%;
     padding: 10px;
-    display: grid;
-    gap: 16px;
+
     .title-footer{
         font-size: 30px;
+        padding-bottom: 16px;
+        font-family: "Roboto Mono", monospace;
     }
     .section-contacts {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-
-        .box-correo {
+        font-family: "Inconsolata", monospace;
+        a {
             display: flex;
             align-items: center;
-            justify-content: center;
-            gap: 10px;
+            gap: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #000;
+            font-weight: bold;
+        }
             .correo {
                 font-size: 18px;
             }
-        }
+        
+       
     }
+
+    .copyright {
+        font-family: "Inconsolata", monospace;
+        padding: 20px;
+        text-align: center;
+    }
+       
+
 }
 
 .footer.dark {
     .title-footer{
-        color: #fff;
+        color: #646cff;
     }
     .section-contacts {
         color: #fff;
+        a {
+            color: #fff;
+        }
     }
+    .copyright {
+        color: #fff;
+    }
+
+
 }

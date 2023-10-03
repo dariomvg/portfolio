@@ -3,11 +3,13 @@
   margin: auto;
   display: grid;
   gap: 14px;
-
+  padding-bottom: 100px;
+  padding-top: 100px;
   .title-projects {
     font-size: 40px;
-    color: #64CCC5;
-    padding-left: 5px;
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    color: #646cff;
   }
   .list-projects {
     display: flex;
@@ -16,53 +18,50 @@
     align-items: center;
     gap: 20px;
     padding: 10px;
+    }
     .item-project {
       width: 350px;
-      height: auto;
-      box-shadow: 0 0 8px #000;
+      height: auto; 
+      border: 3px solid #646cff;
       border-radius: 10px;
-      transition: .5s;
-      background-color: #fff;
-      &:hover {
-        transition: .5s;
-        box-shadow: 0 0 50px #64CCC5;
-        transform: translateY(-10px);
-      }
-      .info-project {
-        width: 100%;
-        padding: 10px;
+      transition: 0.5s;
+      color: #fff;
+      background-color: #000000dc;
+      box-shadow: 0 0 8px #646cff;
+    }
+    img {
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+   
+    .box {
+      padding: 10px;
+      font-family: "Inconsolata", monospace;
+      display: grid;
+      gap: 12px;
+      .box-enlaces {
         display: flex;
-        flex-direction: column;
-        align-items: start;
-        justify-content: center;
-        gap: 14px;
-        h3 {
-          font-size: 22px;
-        }
-        .box-enlaces {
-          width: 100%;
-          display: flex;
-          align-items: center;
-          gap: 18px;
+        justify-content: space-between;
+        align-items: center;
+        .enlace-visit {
+          border: 1.5px solid #faebd7;
+          color: #fff;
           padding: 10px;
-          
-          .enlace-visit {
           text-decoration: none;
-          font-size: 18px;
-          color: #c2ebfd;
-          font-weight: bold;
-          background-color: #053B50;
-          padding: 12px;
-          border-radius: 5px; 
-          gap: 5px;
-
-        }
-        }
-        
+          font-size: 20px;
+          border-radius: 3px;
+          transition: background-color .5s;
+          &:hover {
+            background-color: #faebd7;
+            color: #000;
+            transition: background-color .5s;
+          }
       }
+      }
+      
     }
   }
-}
+
 
 @media (max-width: 768px) {
   .section-projects {
@@ -70,6 +69,14 @@
     .list-projects {
       .item-project {
         width: 100%;
+      }
+      .box {
+        .box-enlaces{
+          .enlace-visit {
+            background-color: #faebd7;
+            color: #000;
+          }
+        }
       }
     }
   }
