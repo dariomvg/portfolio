@@ -1,5 +1,5 @@
 .section-skills {
-  width: 70%;
+  width: 80%;
   height: auto;
   margin: auto;
   padding: 10px;
@@ -7,72 +7,70 @@
   gap: 30px;
   padding-bottom: 100px;
   .title-skills {
-    font-size: 40px;
-    color: #646cff;
-    text-align: center;
+    font-size: 30px;
+    color: #0070f2;
+    text-align: start;
     font-family: "Roboto Mono", monospace;
   }
   .section-list {
-    .list-tecnologies {
-      width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 16px;
+    .cont-details {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 30px;
-      .item-tecnology:nth-child(1) {
-        animation-delay: 0.1s;
+      flex-direction: column;
+      gap: 20px;
+      .text {
+        font-family: "Inconsolata", monospace;
+        font-size: 18px;
+        color: #000;
+        text-align: start;
+        line-height: 1.3;
       }
-      .item-tecnology:nth-child(2) {
-        animation-delay: 0.3s;
-      }
-      .item-tecnology:nth-child(3) {
-        animation-delay: 0.1s;
-      }
-      .item-tecnology:nth-child(4) {
-        animation-delay: 0.3s;
-      }
-      .item-tecnology:nth-child(5) {
-        animation-delay: 0.1s;
-      }
-      .item-tecnology:nth-child(6) {
-        animation-delay: 0.3s;
-      }
-      .item-tecnology:nth-child(7) {
-        animation-delay: 0.1s;
-      }
-      .item-tecnology {
+      .list-tecnologies {
+        width: 100%;
         display: flex;
-        justify-content: center;
         align-items: center;
-        flex-direction: column;
-        border-radius: 10px;
-        transition: 0.5s;  
-        animation: 1s elementos alternate infinite; 
-        span {
-          font-family: "Inconsolata", monospace;
-          font-size: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        .item-tecnology {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border-radius: 10px;
+          transition: 0.5s;
+          text-wrap: balance;
+          .icono-tec {
+            transition: transform 0.5s;
+            &:hover {
+              transition: transform 0.5s;
+              transform: scale(1.2);
+            }
+          }
         }
       }
     }
   }
 }
 
-@keyframes elementos {
-  to {
-    transform: translateY(0);
-  }
-  from {
-    transform: translateY(-15px);
-  }
-}
 .section-skills.dark {
   .section-list {
-    .list-tecnologies {
-      .item-tecnology {
-        span {
-          color: #fff;
-        }
+    .cont-details {
+      .text {
+        color: #a0a0a0;
+      }
+    }
+  }
+}
+@media (max-width: 1180px) {
+  .section-skills {
+    .section-list {
+      flex-wrap: wrap;
+      .img-skill {
+        margin: auto;
       }
     }
   }
@@ -81,6 +79,12 @@
 @media (max-width: 768px) {
   .section-skills {
     width: 100%;
+    .section-list {
+      .img-skill {
+        width: 100%;
+        height: 300px;
+      }
+    }
   }
 }
 

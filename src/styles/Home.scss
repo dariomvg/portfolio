@@ -2,7 +2,6 @@
   width: 70%;
   height: 100vh;
   margin: auto;
-
   .section-main {
     height: 100vh;
     width: 100%;
@@ -10,23 +9,20 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
     text-align: center;
-    position: relative;
-
     .section-info {
       width: 100%;
       display: grid;
       gap: 12px;
       font-family: "Inter", sans-serif;
-      .section-title {
+      .title-home {
         font-size: 70px;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-image: linear-gradient(90deg, #ec4789, #ef4449, #e9ab0c);
       }
-      .section-subtitle {
+      .subtitle-home {
         font-size: 60px;
         color: #000;
         background-clip: text;
@@ -34,13 +30,20 @@
         -webkit-text-fill-color: transparent;
         background-image: linear-gradient(90deg, #7be4b1, #0070f2, #8737ea);
       }
-      .section-details {
+      .details-home {
         width: 100%;
         font-size: 28px;
         font-weight: 500;
-        color: #646cff;
+        color: #000;
         font-family: "Inconsolata", monospace;
         text-wrap: balance;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .effects-titles {
+          font-weight: bold;
+        }
       }
       .box-enlaces {
         width: 200px;
@@ -51,104 +54,94 @@
           transition: 0.5s;
           &:hover {
             transition: 0.5s;
-            transform: translateY(-10px);
+            transform: scale(1.2);
           }
         }
       }
       .button-cv {
         width: 200px;
         padding: 10px;
-        border: 1.5px solid #646cff;
-        font-size: 20px;
+        border: 1px solid #000;
+        font-size: 18px;
         font-weight: bold;
         border-radius: 5px;
         color: #000;
         cursor: pointer;
         transition: 0.5s;
         margin: auto;
-        font-family: system-ui, serif;
-        transition: 0.5s;
-        box-shadow: 0 0 10px #646cff;
+        font-family: "Roboto Mono", monospace;
+        background-color: transparent;
         &:hover {
           transition: 0.5s;
-          background-color: #646cff;
+          border-color: #0070f2;
+          background-color: #0070f2;
           color: #fff;
         }
       }
     }
-    .flecha {
-      position: absolute;
-      bottom: 10px;
-      animation: moverFlecha infinite alternate 0.5s;
-    }
-  }
-}
-
-@keyframes moverFlecha {
-  to {
-    transform: translateY(0);
-  }
-  from {
-    transform: translateY(10px);
   }
 }
 
 .main-home.dark {
   .section-main {
     .section-info {
-      .section-details {
-        color: #fff;
+      .details-home {
+        color: #a0a0a0
       }
        .button-cv {
-        background-color: #7be4b1;
-        color: #000;
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
         transition: .5s;
         &:hover {
-          box-shadow: 0 0 20px #7be4b1;
+          background-color: #fff;
+          color: #000;
           transition: .5s;
         }
       }
     }
+
   }
 }
 
-@media ((min-width: 581px) and (max-width: 1020px)) {
+@media ((min-width: 621px) and (max-width: 1020px)) {
   .main-home {
     width: 100%;
+    height: auto;
+    padding: 12px;
     .section-main {
       .section-info {
-        .section-title {
+        .title-home {
           font-size: 70px;
         }
-        .section-subtitle {
-          font-size: 40px;
+        .subtitle-home {
+          font-size: 50px;
         }
-        .section-details {
+        .details-home {
           font-size: 25px;
         }
-        .button-cv {
-          background-color: #646cff;
-        }
+
       }
     }
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 620px) {
   .main-home {
     width: 100%;
     .section-main {
       .section-info {
         padding-top: 40px;
         gap:10px;
-        .section-title {
-          font-size: 62px;
+        .title-home {
+          font-size: 60px;
         }
-        .section-subtitle {
+        .subtitle-home {
           font-size: 35px;
         }
-        .section-details {
+        .details-home {
           font-size: 25px;
           text-wrap: balance;
+          flex-direction: column;
         }
 
       }
@@ -162,13 +155,13 @@
       .section-info {
         padding-top: 40px;
         gap:10px;
-        .section-title {
+        .title-home {
           font-size: 50px;
         }
-        .section-subtitle {
+        .subtitle-home {
           font-size: 25px;
         }
-        .section-details {
+        .details-home {
           font-size: 25px;
           text-wrap: balance;
         }

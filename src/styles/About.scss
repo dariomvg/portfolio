@@ -1,25 +1,24 @@
 .about-me {
-  width: 70%;
+  width: 80%;
   height: auto;
-  padding: 50px 10px 50px 10px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   .title-about {
-    font-size: 40px;
-    color: #646cff;
-    text-align: center;
+    font-size: 30px;
+    color: #0070f2;
+    text-align: start;
     font-family: "Roboto Mono", monospace;
+    padding-bottom: 10px;
   }
-
   .section-about {
     width: 100%;
     display: grid;
     gap: 20px;
-    .details {
+    padding: 12px;
+    .details-about {
       font-size: 25px;
       font-weight: 500;
       color: #000000;
@@ -28,17 +27,19 @@
     }
     .button-cv {
       padding: 12px;
-      border: 1.5px solid #646cff;
+      border: 1px solid #000;
       font-size: 18px;
       font-weight: bold;
       cursor: pointer;
       color: #000;
       border-radius: 5px;
-      font-family: system-ui; 
-      box-shadow: 0 0 10px #646cff;
+      font-family: "Roboto Mono", monospace;
+      background-color: transparent;
+      transition: 0.5s;
       &:hover {
-        transition: background-color 0.5s;
-        background-color: #646cff;
+        transition: 0.5s;
+        border-color: #0070f2;
+        background-color: #0070f2;
         color: #fff;
       }
     }
@@ -48,16 +49,18 @@
 .about-me.dark {
   .section-about {
     .button-cv {
-      background-color: #7be4b1;
-      color: #000;
-      transition: .5s;
+      background-color: transparent;
+      color: #fff;
+      border: 1px solid #fff;
+      transition: 0.5s;
       &:hover {
-        box-shadow: 0 0 20px #7be4b1;
-        transition: .5s;
+        background-color: #fff;
+        color: #000;
+        transition: 0.5s;
       }
     }
-    .details {
-      color: #ffffff;
+    .details-about {
+      color: #a0a0a0;
     }
   }
 }

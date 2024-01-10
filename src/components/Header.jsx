@@ -1,73 +1,79 @@
 import { useContext, useState } from "react";
-import "../styles/Header.scss";
+import { IdiomaContext } from "../contexts/IdiomaContext";
 import { ThemeContext } from "../contexts/ThemeContext";
+import { translations } from "../constants/lenguages.js";
+import { SwitchTheme } from "./SwitchTheme";
+import iconMenu from "../assets/icons/icon-menu.svg";
+import iconCerrar from "../assets/icons/icon-x.svg";
+import iconIdioma from "../assets/icons/language-outline.svg";
+import "../styles/Header.scss";
 
 export function Header() {
   const [active, setActive] = useState(false);
-  const { theme, setTheme } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
+  const { idioma, setIdioma } = useContext(IdiomaContext);
 
   const handleMenu = () => {
     setActive(!active);
   };
 
-  const handleTheme = () => {
-    setTheme(!theme);
+  const changeLanguage = (translation) => {
+    setIdioma(translation);
   };
 
   return (
-    <>
-      <header className={`header-menu ${theme ? "dark" : ""}`}>
-        <section className="section-responsive">
-          <div className="logo">
-            <h1 className="first-name">Dario</h1>
-            <h1 className="last-name">MARTINEZ</h1>
-          </div>
-          {active ? (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="menu"
-              onClick={handleMenu}
-              viewBox="0 0 50 50"
-              width="50px"
-              height="50px">
-              <path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z" />
-            </svg>
-          ) : (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="menu"
-              onClick={handleMenu}
-              viewBox="0 0 50 50"
-              width="50px"
-              height="50px"
-              >
-              <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z" />
-            </svg>
-          )}
-        </section>
+    <header className={`header-menu ${theme ? "dark" : ""}`}>
+      <section className="section-responsive">
+        {!active ? (
+          <img
+            src={iconMenu}
+            alt="icon menu"
+            onClick={handleMenu}
+            width={50}
+            height={50}
+            className="menu"
+            loading="lazy"
+          />
+        ) : (
+          <img
+            src={iconCerrar}
+            alt="icon x"
+            onClick={handleMenu}
+            width={50}
+            height={50}
+            className="menu"
+            loading="lazy"
+          />
+        )}
+      </section>
 
-        <nav className="navbar">
-          <div className={`box-enlaces ${active ? "active" : ""}`}>
-            <a className="enlaces-nav" href="#home">
-              Principal
-            </a>
-            <a className="enlaces-nav" href="#projects">
-              Proyectos
-            </a>
-            <a className="enlaces-nav" href="#skills">
-              Habilidades
-            </a>
-            <label className="div-theme">
-              <input
-                type="checkbox"
-                className="input-theme"
-                onClick={handleTheme}
-              />
-              <span className="span-theme"></span>
-            </label>
-          </div>
-        </nav>
-      </header>
-    </>
+      <nav className="navbar">
+        <div className={`box-enlaces ${active ? "active" : ""}`}>
+          <a className="enlaces-nav" href="#home">
+            {translations[idioma].principal}
+          </a>
+          <a className="enlaces-nav" href="#projects">
+            {translations[idioma].proyectos}
+          </a>
+          <a className="enlaces-nav" href="#skills">
+            {translations[idioma].habilidades}
+          </a>
+          <a className="enlaces-nav" href="#contact">
+            {translations[idioma].contacto}
+          </a>
+          <img
+            src={iconIdioma}
+            alt="icon lenguage"
+            width={30}
+            height={30}
+            title="cambio de idioma"
+            className="icon-idioma"
+            onClick={() => changeLanguage(idioma === "es" ? "en" : "es")}
+            loading="lazy"
+          />
+          <SwitchTheme />
+        </div>
+      </nav>
+    </header>
   );
 }
