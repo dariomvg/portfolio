@@ -25,13 +25,7 @@ export function Skills() {
         />
         <div className="cont-details">
           <p className="text">
-            Aparte de estas tecnologías he trabajado e implementado metodologias
-            ágil, patrones de diseño, SOLID, patrón de arquitectura
-            M.V.C,editores de código como VScode y sublimeText3, trabajo con
-            RESTful APIs, plataforma en la nube con Cloudinary y en despliegues
-            de proyectos front suelo usar Github pages (con un paquete
-            gh-pages), vercel y netlify, y en el back plataformas como FL0 y
-            planetScale.
+          {translations[idioma].mensageSkill}
           </p>
           <ul className="list-tecnologies">
             {skills &&
