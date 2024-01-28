@@ -1,6 +1,6 @@
 # Portfolio 🤗
 
-###Clonar el Proyecto
+### Clonar el Proyecto
 #### Para clonar este proyecto en tu máquina local, asegúrate de tener Git instalado. Luego, sigue estos pasos:
 
 1. Abre tu terminal.
@@ -18,18 +18,12 @@
 #### Para ejecutar la aplicación, sigue estos pasos:
 
 1. Abre una terminal en el directorio del proyecto.
+2. Instala las dependencias utilizando npm:
 
-2. Instala las dependencias utilizando npm o yarn:
+`npm install`
 
-`npm install` ó `yarn install`
+### Inicia la aplicación:
 
-3. Instalar dependencias adicionales (react-router-dom)
+1. ejecuta: `npm run dev`
 
-`npm install --save-dev sass` ó `yarn add --save-dev sass`  
-`npm install aos` ó `yarn add aos`
-
-###Inicia la aplicación:
-
-1. ejecuta: `npm start`
-
-#####La aplicación debería abrirse en tu navegador predeterminado en http://localhost:3000/.
+##### La aplicación debería abrirse en tu navegador predeterminado en http://localhost:3000/.
