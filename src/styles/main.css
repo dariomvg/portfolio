@@ -1,0 +1,13 @@
+.main {
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    background-color: #030303;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+}
+

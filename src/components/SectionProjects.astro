@@ -1,0 +1,17 @@
+---
+import "../styles/projects.css";
+import CardProject from "./CardProject.astro";
+import { projects } from "../utils/projects";
+import iconTitle from "../assets/icons/icon-title.svg";
+---
+
+<section id="proyectos" class="section-projects">
+    <h2 class="title-section-projects">
+        Proyectos
+        <img src={iconTitle.src} alt="chevron title" width="20" height="20" />
+    </h2>
+    <section class="projects">
+        {projects.map((item) => <CardProject item={item} />)}
+    </section>
+</section>
+

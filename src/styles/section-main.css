@@ -1,0 +1,139 @@
+.section-main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+  z-index: 99;
+}
+
+.container-main {
+  width: 100%;
+  position: relative;
+  z-index: 99;
+}
+.badge {
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  width: 100px;
+  border: 1px solid #10b981;
+  background-color: transparent;
+  border-radius: 50px;
+  animation: changeShadow 4s alternate-reverse infinite;
+}
+
+@keyframes changeShadow {
+  0% {
+    box-shadow: none;
+    color: #34d399;
+  }
+  100% {
+    color: #6ee7b7;
+    text-shadow: 0 0 5px #6ee7b7;
+    box-shadow: 0 0 12px #047857;
+  }
+}
+
+.title-section-main {
+  font-size: 100px;
+  color: #fff;
+  text-align: center;
+}
+
+.subtitle-section-main {
+  font-size: 70px;
+  text-align: center;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  -webkit-background-clip: text;
+  background-clip: clip;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.details-section-main {
+  font-size: 22px;
+  color: #ddd;
+  text-align: center;
+}
+
+.fondo-gradiente {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  top: 10px;
+  right: -50px;
+  position: absolute;
+  z-index: 1;
+  filter: blur(70px);
+  background-image: linear-gradient(
+    to bottom,
+    #d16ba5 30%,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec 60%,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+#text {
+  color: #86A8E7;
+  text-shadow: 0 0 10px #86A8E7;
+
+}
+
+.cursor {
+  color: #86A8E7;
+}
+
+@media (max-width: 768px) {
+  .section-main {
+    width: 100%
+  }
+  .fondo-gradiente {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-section-main {
+    font-size: 90px;
+  }
+
+  .subtitle-section-main {
+    font-size: 60px;
+
+  }
+  .details-section-main {
+
+    display: flex;
+    flex-direction: column;
+  }
+  .cursor {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+---
+import "../styles/card-project.css";
+const {item} = Astro.props;
+const {icon1, icon2, icon3, title, image, date, description, link, repo, effect} = item; 
+---
+
+<div class="card-project" data-aos={`fade-${effect}`} data-aos-delay="500">
+    <img src={image.src} alt={title} width={450} height={300} class="image-card" />
+    <div class="container-details-card">
+        <div class="header-card">
+            <div class="header-card-title">
+                <h3 class="title-card">{title}</h3>
+                <strong class="date-card">{date}</strong>
+            </div>
+            <div class="icons-card">
+                <img src={icon1.src} alt="logo skill" width="25" height="25" class="logo-card" />
+                <img src={icon2.src} alt="logo skill" width="25" height="25" class="logo-card" />
+                <img src={icon3.src} alt="logo skill" width="25" height="25" class="logo-card" />
+            </div> 
+        </div>
+
+    <p class="description-card">{description}</p>
+    <div class="links-card">
+        <a href={link} rel="noreferrer" target="_blank" class="link-card">Visitar</a>
+        <a href={repo} rel="noreferrer" target="_blank" class="link-card">Repositorio</a>
+    </div>
+</div>
+</div>

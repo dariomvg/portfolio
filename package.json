@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "portafolio",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^5.0.19",
+    "@fontsource/roboto": "^5.0.14",
+    "aos": "^2.3.4",
     "astro": "^4.14.3"
   }
 }

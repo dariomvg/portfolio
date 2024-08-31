@@ -1,0 +1,24 @@
+---
+import "../styles/globals.css"; 
+import '@fontsource/montserrat';
+import '@fontsource/roboto/700.css';
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+        <meta name="description" content="Portfolio web personal | Desarrollador Web Front-end y programador">
+        <meta name="keywords" content="portfolio, desarrollo web, programación, front-end">
+		<title>Dario Martinez | Desarrollador Web Front-end</title>
+	</head>
+	<body>
+		<slot />
+		<script is:inline src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script is:inline>AOS.init();</script>		  
+	</body>
+</html>
+

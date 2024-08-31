@@ -1,0 +1,40 @@
+---
+import "../styles/grilla.css";
+import iconGithub from "../assets/icons/icon-github-grilla.png";
+import iconLinkedin from "../assets/icons/icon-linkedin-grilla.png";
+import iconPdf from "../assets/icons/icon-pdf-grilla.png";
+import iconDocs from "../assets/icons/icon-docs-grilla.png";
+---
+
+<section class="section-grilla" id="contactos" data-aos="fade-up" data-aos-delay="500">
+    <div class="grilla">
+        <div class="box-project">
+            <h2>Último proyecto subido</h2>
+            <div class="links-box-project">
+                <a href="https://gestionar-proyectos.vercel.app/" rel="noreferrer" target="_blank" class="link-box-project">Visitar</a>
+                <a href="https://github.com/dariomvg/gestionar-proyectos" rel="noreferrer" target="_blank" class="link-box-project">Repositorio</a>
+            </div>
+        </div>
+        <div class="section-links">
+            <a href="https://github.com/dariomvg" rel="noreferrer" target="_blank" class="link-box">
+                <img src={iconGithub.src} width="40" height="40" alt="pdf" class="icon-grid">
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/dariomvg" rel="noreferrer" target="_blank" class="link-box">
+                <img src={iconLinkedin.src} width="40" height="40" alt="pdf" class="icon-grid">
+                LinkedIn
+            </a>
+            <a href="/curriculum.pdf" rel="noreferrer" target="_blank" class="link-box">
+                <img src={iconPdf.src} width="40" height="40" alt="pdf" class="icon-grid">
+                CV
+            </a>
+            <a href="https://blog-bytes-kohl.vercel.app/posts" rel="noreferrer" target="_blank" class="link-box">
+                <img src={iconDocs.src} width="40" height="40" alt="pdf" class="icon-grid">
+                Blog
+            </a>
+        </div>
+    </div>
+</section>
+
+
+

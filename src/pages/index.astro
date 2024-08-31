@@ -1,16 +1,23 @@
 ---
-
+import Header from "../components/Header.astro";
+import SectionAboutme from "../components/SectionAboutme.astro";
+import SectionFooter from "../components/SectionFooter.astro";
+import SectionGrilla from "../components/SectionGrilla.astro";
+import SectionMain from "../components/SectionMain.astro";
+import SectionProjects from "../components/SectionProjects.astro";
+import SectionSkills from "../components/SectionSkills.astro";
+import Layout from "../layouts/Layout.astro"; 
+import "../styles/main.css";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+	<main class="main">
+		<Header />
+		<SectionMain />
+		<SectionProjects />
+		<SectionSkills />
+		<SectionAboutme />
+		<SectionGrilla />
+		<SectionFooter />
+	</main>
+</Layout>
