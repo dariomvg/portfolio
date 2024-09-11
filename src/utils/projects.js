@@ -10,6 +10,7 @@ import imageLanding from "../assets/images/landing.png"
 import imageMovies from "../assets/images/movies.png"
 import imageNotas from "../assets/images/notes.png"
 import imageGestor from "../assets/images/gestor.png"
+import imageTextlab from "../assets/images/text-lab.png"
 
 
 export const projects = [
@@ -41,6 +42,19 @@ export const projects = [
   },
   {
     id: 3,
+    icon1: iconReact,
+    icon2: iconJs,
+    icon3: iconCss,
+    title: "App de notas",
+    image: imageNotas,
+    date: "Junio 2024",
+    description: "Aplicación de notas. puedes usarlo para escribir, organizar, y almacenar notas de forma digital",
+    link: "https://notes-kappa-ashy.vercel.app/",
+    repo: "https://github.com/dariomvg/notes",
+    effect:"left",
+  },
+  {
+    id: 4,
     icon1: iconAstro,
     icon2: iconJs,
     icon3: iconCss,
@@ -53,7 +67,7 @@ export const projects = [
     effect:"left",
   },
   {
-    id: 4,
+    id: 5,
     icon1: iconNext,
     icon3: iconJs,
     icon2: iconCss,
@@ -64,19 +78,6 @@ export const projects = [
     link: "https://blog-bytes-kohl.vercel.app/",
     repo: "https://github.com/dariomvg/blog-bytes",
     effect:"right",
-  },
-  {
-    id: 5,
-    icon1: iconReact,
-    icon2: iconJs,
-    icon3: iconCss,
-    title: "App de notas",
-    image: imageNotas,
-    date: "Junio 2024",
-    description: "Aplicación de notas. puedes usarlo para escribir, organizar, y almacenar notas de forma digital",
-    link: "https://notes-kappa-ashy.vercel.app/",
-    repo: "https://github.com/dariomvg/notes",
-    effect:"left",
   },
   {
     id: 6,
@@ -90,5 +91,18 @@ export const projects = [
     link: "https://gestionar-proyectos.vercel.app/",
     repo: "https://github.com/dariomvg/gestionar-proyectos",
     effect:"right",
+  },
+    {
+    id: 7,
+    icon1: iconNext,
+    icon2: iconJs,
+    icon3: iconCss,
+    title: "TextLab",
+    image: imageTextlab,
+    date: "Septiembre 2024",
+    description: "Aplicación donde puedes crear editores de texto con múltiples herramientas, desde links hasta diferentes tamaños de texto",
+    link: "https://text-lab.vercel.app/",
+    repo: "https://github.com/dariomvg/text-lab",
+    effect: "right",
   },
 ];

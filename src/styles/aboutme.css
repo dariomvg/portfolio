@@ -17,9 +17,6 @@
 
 .container-details{
     padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
     ::selection {
         background-color: #86A8E7; 
         color: white;

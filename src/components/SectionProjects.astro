@@ -8,7 +8,7 @@ import iconTitle from "../assets/icons/icon-title.svg";
 <section id="proyectos" class="section-projects">
     <h2 class="title-section-projects">
         Proyectos
-        <img src={iconTitle.src} alt="chevron title" width="20" height="20" />
+        <img src={iconTitle.src} alt="chevron title" width="20" height="20" loading="lazy" />
     </h2>
     <section class="projects">
         {projects.map((item) => <CardProject item={item} />)}

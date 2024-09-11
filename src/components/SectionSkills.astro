@@ -7,12 +7,12 @@ import { skills } from "../utils/skills";
 <section class="section-skills" id="habilidades" data-aos="fade-up" data-aos-delay="500">
     <h2 class="title-section-skills">
         Habilidades
-        <img src={iconTitle.src} alt="chevron title" width="20" height="20" />
+        <img src={iconTitle.src} alt="chevron title" width="20" height="20" loading="lazy" />
     </h2>
     <h3 class="detail-section-skills">Las habilidades que domino actualmente son:</h3>
     <div class="container-lists">
-        <ul class="list-skills">{skills.front.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" />{title}</li>)}</ul>
-        <ul class="list-skills">{skills.back.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" />{title}</li>)}</ul>
-        <ul class="list-skills">{skills.others.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" />{title}</li>)}</ul>
+        <ul class="list-skills">{skills.front.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" loading="lazy" />{title}</li>)}</ul>
+        <ul class="list-skills">{skills.back.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" loading="lazy" />{title}</li>)}</ul>
+        <ul class="list-skills">{skills.others.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" loading="lazy" />{title}</li>)}</ul>
     </div>
 </section>
