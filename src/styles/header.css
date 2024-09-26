@@ -31,12 +31,10 @@
   color: #ddd;
   text-decoration: none;
   font-size: 18px;
-  border-bottom: 1px solid transparent;
   transition: 0.5s;
 }
 .link-nav:hover {
   color: #fff;
-  border-color: #fff;
   transition: 0.5s;
 }
 
@@ -44,6 +42,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5px;
 }
 
 .header.open {

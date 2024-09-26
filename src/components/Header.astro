@@ -1,6 +1,7 @@
 ---
 import "../styles/header.css";
-import iconLink from "../assets/icons/icon-link.svg";
+import iconGithub from "../assets/icons/github.svg";
+import iconLinkedin from "../assets/icons/linkedin.svg";
 import iconMenu from "../assets/icons/menu.svg"; 
 ---
 
@@ -26,12 +27,12 @@ import iconMenu from "../assets/icons/menu.svg";
         </div>
         <div class="sub-nav">
             <a href="https://github.com/dariomvg" target="_blank" rel="noreferrer" class="link-nav other">
+                <img src={iconGithub.src} alt="link nav header" width="22" height="22" class="icon-link-header" loading="lazy" />
                 Github
-                <img src={iconLink.src} alt="link nav header" width="20" height="20" class="icon-link-header" />
             </a>
             <a href="https://www.linkedin.com/in/dariomvg" rel="noreferrer" target="_blank" class="link-nav other">
+                <img src={iconLinkedin.src} alt="link nav header" width="22" height="22" class="icon-link-header" loading="lazy" />
                 Linkedin
-                <img src={iconLink.src} alt="link nav header" width="20" height="20" class="icon-link-header" />
             </a>
         </div>
     </nav>

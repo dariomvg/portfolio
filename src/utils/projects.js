@@ -3,106 +3,127 @@ import iconCss from "../assets/logos/css.svg";
 import iconJs from "../assets/logos/javascript.svg";
 import iconNext from "../assets/logos/next.svg";
 import iconAstro from "../assets/logos/astro.svg";
-
-import imageBlog from "../assets/images/blog.png";
-import imageCatalogo from "../assets/images/catalogo.png"
-import imageLanding from "../assets/images/landing.png"
-import imageMovies from "../assets/images/movies.png"
-import imageNotas from "../assets/images/notes.png"
-import imageGestor from "../assets/images/gestor.png"
-import imageTextlab from "../assets/images/text-lab.png"
-
+import iconPostgres from "../assets/logos/postgresql.svg";
+import iconExpress from "../assets/logos/express.svg";
+import iconSupabase from "../assets/logos/supabase.svg";
 
 export const projects = [
   {
     id: 1,
-    icon1: iconNext,
-    icon2: iconJs,
-    icon3: iconCss,
+    icons: [iconNext, iconJs, iconCss],
     title: "App peliculas",
-    image: imageMovies,
     date: "Septiembre 2023",
     description: "Una aplicación de películas. Puedes buscar peliculas y series, ver detalles, traílers, próximas a salir y más",
     link: "https://app-movies-chi.vercel.app/",
     repo: "https://github.com/dariomvg/movies-app",
-    effect:"left",
+    effect:"right",
+    aprox: true
+
   },
   {
     id: 2,
-    icon1: iconReact,
-    icon2: iconJs,
-    icon3: iconCss,
+    icons: [iconReact, iconJs, iconCss],
     title: "Catálogo",
-    image: imageCatalogo,
     date: "Marzo 2024",
     description: "Librería de componentes web UI. Es un catalogo de componentes reutilizables que se pueden integrar rápidamente en otros proyectos",
     link: "https://components-fast.vercel.app",
     repo: "https://github.com/dariomvg/landing-components-fast",
-    effect:"right",
+    effect:"left",
+    aprox: true
+
   },
   {
     id: 3,
-    icon1: iconReact,
-    icon2: iconJs,
-    icon3: iconCss,
+    icons: [iconReact, iconJs, iconCss],
     title: "App de notas",
-    image: imageNotas,
     date: "Junio 2024",
     description: "Aplicación de notas. puedes usarlo para escribir, organizar, y almacenar notas de forma digital",
     link: "https://notes-kappa-ashy.vercel.app/",
     repo: "https://github.com/dariomvg/notes",
-    effect:"left",
+    effect:"right",
+    aprox: true
+
   },
   {
     id: 4,
-    icon1: iconAstro,
-    icon2: iconJs,
-    icon3: iconCss,
+    icons: [iconAstro, iconJs, iconCss],
     title: "Landing page",
-    image: imageLanding,
     date: "Julio 2023",
     description: "Landing page sobre un servicio de almacenamiento en la nube",
     link: "https://infinity-cloud.vercel.app/",
     repo: "https://github.com/dariomvg/infinityCloud",
     effect:"left",
+    aprox: true
+
   },
   {
     id: 5,
-    icon1: iconNext,
-    icon3: iconJs,
-    icon2: iconCss,
+    icons: [iconAstro, iconJs, iconCss],
     title: "Blog bytes",
-    image: imageBlog,
     date: "Mayo 2024",
     description: "Blog de tecnología. incluye artículos sobre tecnología, programación y desarrollo web",
     link: "https://blog-bytes-kohl.vercel.app/",
     repo: "https://github.com/dariomvg/blog-bytes",
     effect:"right",
+    aprox: true
+
   },
   {
     id: 6,
-    icon1: iconNext,
-    icon2: iconJs,
-    icon3: iconCss,
+    icons: [iconNext, iconJs, iconCss],
     title: "Gestor de proyectos",
-    image: imageGestor,
     date: "Agosto 2024",
     description: "Aplicación de gestión de proyectos. puedes crear y administrar proyectos, agregar tareas, seguir el progreso de cada proyecto",
     link: "https://gestionar-proyectos.vercel.app/",
     repo: "https://github.com/dariomvg/gestionar-proyectos",
-    effect:"right",
+    effect:"left",
+    aprox: true
+
   },
     {
     id: 7,
-    icon1: iconNext,
-    icon2: iconJs,
-    icon3: iconCss,
+    icons: [iconNext, iconJs, iconCss],
     title: "TextLab",
-    image: imageTextlab,
     date: "Septiembre 2024",
     description: "Aplicación donde puedes crear editores de texto con múltiples herramientas, desde links hasta diferentes tamaños de texto",
     link: "https://text-lab.vercel.app/",
     repo: "https://github.com/dariomvg/text-lab",
     effect: "right",
+    aprox: true
+
+  },
+  {
+    id: 8,
+    icons: [iconNext, iconJs, iconCss, iconSupabase],
+    title: "Tasks fullstack",
+    date: "Septiembre 2024",
+    description: "Repositorio de una app de tareas, dónde puedes crear notas personales más subida de imágenes",
+    link: "",
+    repo: "https://github.com/dariomvg/tasks-fullstack",
+    effect: "left",
+    aprox: true
+  },
+  {
+    id: 9,
+    icons: [iconReact, iconJs, iconExpress, iconPostgres],
+    title: "Chats realtime",
+    date: "Septiembre 2024",
+    description: "Repositorio de una app de creación de chats en tiempo real, con invitación privada con contraseñas, rápido y fáciil de usar",
+    link: "",
+    repo: "https://github.com/dariomvg/chats-in-realtime",
+    effect: "right",
+    aprox: true
+
+  },
+  {
+    id: 10,
+    icons: [iconNext, iconJs, iconCss, iconSupabase],
+    title: "Gestor Group",
+    date: "Septiembre 2024",
+    description: "Gestor Group es un editor de texto donde puedes trabajar con tu grupo de trabajo más envio de mensajes",
+    link: "",
+    repo: "https://github.com/dariomvg/gestor-group",
+    effect: "left",
+    aprox: false
   },
 ];
