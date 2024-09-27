@@ -20,3 +20,8 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+    .projects {
+        justify-content: center;
+    }
+}
