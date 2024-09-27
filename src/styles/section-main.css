@@ -121,10 +121,10 @@
   position: absolute;
   inset: 0;
   background: linear-gradient(
-    #030303 10%,
+    #0000 10%,
     transparent 30%,
     transparent 70%,
-    #030303  90%
+    #0000  90%
   );
   z-index: 20;
 }
