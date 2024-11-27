@@ -4,7 +4,7 @@ const {item} = Astro.props;
 const {icons, title, date, description, link, repo, effect, aprox} = item; 
 ---
 
-<div class="card-project" data-aos={`fade-${effect}`} data-aos-delay="500">
+<div class="card-project" data-aos="fade-up" data-aos-delay="500" >
     {!aprox && <p class="title-aprox">Próximamente</p>}
     <div  class={`container-details-card ${aprox ? "" : "aprox"}`}>
         <div class="header-card">

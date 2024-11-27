@@ -53,6 +53,9 @@
   transition: 0.5s;
   background-color: #1b1b1b6f;
 }
+.open .title-author  {
+  display: flex;
+}
 
 @media (max-width: 768px) {
   .header {
@@ -77,5 +80,8 @@
     flex-direction: column;
     visibility: hidden;
     align-items: flex-start;
+  }
+  .title-author  {
+    display: none;
   }
 }
