@@ -17,10 +17,6 @@
 
 .container-details{
     padding-top: 10px;
-    ::selection {
-        background-color: #86A8E7; 
-        color: white;
-      }
 }
 
 .details-section-about{
@@ -30,7 +26,7 @@
 }
 
 .b {
-    color: #86A8E7;
+    color: #41dfff;
 }
 
 @media (max-width: 768px) {

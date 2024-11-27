@@ -11,8 +11,14 @@ import { skills } from "../utils/skills";
     </h2>
     <h3 class="detail-section-skills">Las habilidades que domino actualmente son:</h3>
     <div class="container-lists">
-        <ul class="list-skills">{skills.front.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" loading="lazy" />{title}</li>)}</ul>
-        <ul class="list-skills">{skills.back.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" loading="lazy" />{title}</li>)}</ul>
-        <ul class="list-skills">{skills.others.map(({icon, title}) => <li class="skill"> <img src={icon.src} alt={title} width="30" height="30" loading="lazy" />{title}</li>)}</ul>
+        <ul class="list-skills">{skills.front.map(({icon, title}) => 
+            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" />{title}</li>)}
+        </ul>
+        <ul class="list-skills">{skills.back.map(({icon, title}) => 
+            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" />{title}</li>)}
+        </ul>
+        <ul class="list-skills">{skills.others.map(({icon, title}) => 
+            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" />{title}</li>)}
+        </ul>
     </div>
 </section>

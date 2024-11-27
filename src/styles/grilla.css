@@ -16,13 +16,13 @@
     display: grid;
     grid-template-columns: 2fr 1fr ;
     gap: 8px;
-    box-shadow: 0 0 100px #86A8E7;
-    background-color: #435372;
+    box-shadow: 0 0 100px #41dfff;
+    background-color: #207181;
 }
 
 
 .box-project {
-    border: 1px solid #86A8E7;
+    border: 1px solid #41dfff;
     border-radius: 5px;
     padding: 10px;
     display: flex;
@@ -69,7 +69,7 @@
     width: 150px;
     height: 150px;
     background-color: #030303;
-    border: 1px solid #86A8E7;
+    border: 1px solid #41dfff;
     border-radius: 5px;
     display: flex;
     justify-content: center;

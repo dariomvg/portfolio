@@ -15,6 +15,7 @@
   position: relative;
   z-index: 99;
 }
+
 .badge {
   text-align: center;
   padding: 5px;
@@ -67,32 +68,6 @@
   -webkit-text-fill-color: transparent;
 }
 
-.fondo-gradiente {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  top: 10px;
-  right: -50px;
-  position: absolute;
-  z-index: 1;
-  filter: blur(70px);
-  background-image: linear-gradient(
-    to bottom,
-    #d16ba5 30%,
-    #c777b9,
-    #ba83ca,
-    #aa8fd8,
-    #9a9ae1,
-    #8aa7ec 60%,
-    #79b3f4,
-    #69bff8,
-    #52cffe,
-    #41dfff,
-    #46eefa,
-    #5ffbf1
-  );
-}
-
 
 .loader {
   color: #ddd;
@@ -133,7 +108,7 @@
   display: block;
   height: 100%;
   padding-left: 6px;
-  color: #86a8e7;
+  color: #41dfff;
   animation: spin 12s infinite alternate-reverse;
   animation-delay: .5s;
 }

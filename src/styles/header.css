@@ -20,6 +20,9 @@
   background-color: #1b1b1b6f;
   backdrop-filter: blur(50px);
 }
+.title-author {
+  color: #fff;
+}
 .sub-nav {
   display: flex;
   justify-content: center;
@@ -28,7 +31,7 @@
 }
 
 .link-nav {
-  color: #ddd;
+  color: #aaa;
   text-decoration: none;
   font-size: 18px;
   transition: 0.5s;
@@ -36,13 +39,6 @@
 .link-nav:hover {
   color: #fff;
   transition: 0.5s;
-}
-
-.other {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
 }
 
 .header.open {

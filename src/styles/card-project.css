@@ -9,17 +9,17 @@
   background: radial-gradient(
     circle farthest-corner at top right,
     #404040 0%,
-    #090909 30%
+    #101010 30%
   );
   background: -webkit-radial-gradient(
     circle farthest-corner at top right,
     #404040 0%,
-    #090909 30%
+    #101010 30%
   );
   background: -moz-radial-gradient(
     circle farthest-corner at top right,
     #404040 0%,
-    #090909 30%
+    #101010 30%
   );
   position: relative;
   z-index: 99;
@@ -94,7 +94,7 @@
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-  border: 1px solid #86a8e7;
+  border: 1px solid #41dfff;
   transition: 0.5s;
   padding: 10px;
   font-weight: 500;
