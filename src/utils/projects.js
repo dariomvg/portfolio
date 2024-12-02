@@ -135,8 +135,8 @@ export const projects = [
     title: "Que comer",
     date: "Octubre 2024",
     description: "Te elige una comida de latinoamérica aleatoria, cuenta con comidas de peru, brasil, uruguay, argentina",
-    link: "https://github.com/dariomvg/que-comer",
-    repo: "https://que-comer.vercel.app",
+    link: "https://que-comer.vercel.app",
+    repo: "https://github.com/dariomvg/que-comer",
     aprox: true
   },
   {
