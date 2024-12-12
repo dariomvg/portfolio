@@ -7,8 +7,9 @@ import iconPostgres from "../assets/logos/postgresql.svg";
 import iconExpress from "../assets/logos/express.svg";
 import iconSupabase from "../assets/logos/supabase.svg";
 import iconType from "../assets/logos/typescript.svg";
+import type { ProjectsTypes } from "../types/utils.types";
 
-export const projects = [
+export const projects: ProjectsTypes[] = [
   {
     id: 1,
     icons: [iconNext, iconJs, iconCss],

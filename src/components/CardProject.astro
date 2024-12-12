@@ -1,5 +1,10 @@
 ---
 import "../styles/card-project.css";
+import type { ProjectsTypes } from "../types/utils.types";
+
+interface Props {
+    item: ProjectsTypes
+}
 const {item} = Astro.props;
 const {icons, title, date, description, link, repo, aprox} = item; 
 ---

@@ -14,8 +14,11 @@ import iconPostgre from "../assets/logos/postgresql.svg";
 import iconVercel from "../assets/logos/vercel.svg";
 import iconTypescript from "../assets/logos/typescript.svg";
 import iconSupabase from "../assets/logos/supabase.svg";
+import iconJest from "../assets/logos/jest.svg";
+import iconVitest from "../assets/logos/vitest.svg";
+import type { SkillsTypes } from "../types/utils.types";
 
-export const skills = {
+export const skills: SkillsTypes = {
   front: [
     {
       id: 1,
@@ -100,6 +103,16 @@ export const skills = {
       id: 5,
       icon: iconSupabase,
       title: "Supabase",
+    },
+    {
+      id: 6,
+      icon: iconJest,
+      title: "Jest",
+    },
+    {
+      id: 7,
+      icon: iconVitest,
+      title: "Vitest",
     }
   ],
 };

@@ -14,5 +14,9 @@
     "@fontsource/roboto": "^5.0.14",
     "aos": "^2.3.4",
     "astro": "^4.14.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
   }
 }
