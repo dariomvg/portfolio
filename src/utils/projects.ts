@@ -144,7 +144,7 @@ export const projects: ProjectsTypes[] = [
     id: 14,
     icons: [iconNext, iconJs, iconCss, iconExpress, iconType],
     title: "Change Images",
-    date: "Diciembre",
+    date: "Diciembre 2024",
     description: "Aplicación para cambiar el formato de tus imagenes y optimizarlas al formato webp",
     link: "https://change-images.vercel.app",
     repo: "https://github.com/dariomvg/change-images",
@@ -152,20 +152,20 @@ export const projects: ProjectsTypes[] = [
   },
   {
     id: 15,
+    icons: [iconNext, iconCss, iconType],
+    title: "App calendarUI",
+    date: "Diciembre 2024",
+    description: "Puedes organizar tus días, semanas o tu mes completo, agregando tus tareas, proyectos, etc.",
+    link: "https://calendar-ui-rho.vercel.app/",
+    repo: "https://github.com/dariomvg/calendarUI",
+    aprox: true
+  },
+  {
+    id: 16,
     icons: [iconReact, iconJs, iconCss, iconType],
     title: "Create docs",
     date: "Enero 2025",
     description: "Podes crear documentaciones a traves de plantillas para tus proyectos, documentación markdown profesional y minimalista",
-    link: "",
-    repo: "",
-    aprox: false
-  },
-  {
-    id: 16,
-    icons: [iconNext, iconJs, iconExpress, iconType],
-    title: "App tickets",
-    date: "Enero 2025",
-    description: "App venta tickets, para eventos, con autenticación, seguridad y escalable",
     link: "",
     repo: "",
     aprox: false
