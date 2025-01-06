@@ -83,7 +83,6 @@
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
-
   border-radius: 8px;
 }
 
@@ -166,11 +165,11 @@
   
   @media (max-width: 480px) {
     .title-section-main {
-      font-size: 70px;
+      font-size: 60px;
     }
   
     .subtitle-section-main {
-      font-size: 50px;
+      font-size: 28px;
     }
     .details-section-main {
       display: flex;
@@ -180,11 +179,13 @@
       display: none;
     }
     .loader {
+      font-size: 16px;
       justify-content: flex-start;
-      font-size: 20px;
+      flex-direction: column;
+      text-align: center;
     }
     .word {
-       padding-left: 0;
-       text-align: center;
+      text-align: center;
+   
     }
   }

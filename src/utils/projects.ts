@@ -7,6 +7,7 @@ import iconPostgres from "../assets/logos/postgresql.svg";
 import iconExpress from "../assets/logos/express.svg";
 import iconSupabase from "../assets/logos/supabase.svg";
 import iconType from "../assets/logos/typescript.svg";
+import iconNode from "../assets/logos/node.svg"
 import type { ProjectsTypes } from "../types/utils.types";
 
 export const projects: ProjectsTypes[] = [
@@ -162,12 +163,12 @@ export const projects: ProjectsTypes[] = [
   },
   {
     id: 16,
-    icons: [iconReact, iconJs, iconCss, iconType],
-    title: "Create docs",
+    icons: [iconJs, iconNode],
+    title: "Docs-generator-readme",
     date: "Enero 2025",
-    description: "Podes crear documentaciones a traves de plantillas para tus proyectos, documentación markdown profesional y minimalista",
-    link: "",
-    repo: "",
-    aprox: false
+    description: "Podes crear la documentación para tus proyectos. Usandoló como una base o para un README rápido",
+    link: "https://www.npmjs.com/package/docs-generator-readme",
+    repo: "https://github.com/dariomvg/docs-generator-readme",
+    aprox: true
   },
 ];
