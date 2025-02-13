@@ -25,7 +25,7 @@ export const projects: ProjectsTypes[] = [
     title: "Kit elements",
     date: "Noviembre 2024",
     description: "Librería de paquetes en NPM con diferentes funciones como fechas, animaciones, componentesUI y efecto de maquina de escribir",
-    repo: "https://github.com/dariomvg/docs-kit-elements",
+    repo: "https://github.com/dariomvg/kit-elements",
   },
   {
     id: 3,
