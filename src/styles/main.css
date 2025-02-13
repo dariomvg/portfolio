@@ -1,13 +1,18 @@
 .main {
-    color: #fff;
     width: 70%;
     margin: auto;
     background-color: #030303;
+
+    position: relative;
+    z-index: 99;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
     .main {
         width: 100%;
+        margin: auto;
+        border: none;
     }
 }
 

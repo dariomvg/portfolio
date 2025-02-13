@@ -4,7 +4,7 @@ import iconTitle from "../assets/icons/icon-title.svg";
 import { skills } from "../utils/skills";
 ---
 
-<section class="section-skills" id="habilidades" data-aos="fade-up" data-aos-delay="500">
+<section class="section-skills" id="habilidades">
     <h2 class="title-section-skills">
         Habilidades
         <img src={iconTitle.src} alt="chevron title" width="20" height="20" loading="lazy" />
@@ -12,13 +12,15 @@ import { skills } from "../utils/skills";
     <h3 class="detail-section-skills">Las habilidades que domino actualmente son:</h3>
     <div class="container-lists">
         <ul class="list-skills">{skills.front.map(({icon, title}) => 
-            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" />{title}</li>)}
-        </ul>
-        <ul class="list-skills">{skills.back.map(({icon, title}) => 
-            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" />{title}</li>)}
+            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" title={title} /></li>)}
         </ul>
         <ul class="list-skills">{skills.others.map(({icon, title}) => 
-            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" />{title}</li>)}
+            <li class="skill"> 
+            <img src={icon.src} alt={title} width="40" height="40" loading="lazy" title={title} />
+            </li>)}
+        </ul>
+        <ul class="list-skills">{skills.back.map(({icon, title}) => 
+            <li class="skill"> <img src={icon.src} alt={title} width="40" height="40" loading="lazy" title={title} /></li>)}
         </ul>
     </div>
 </section>

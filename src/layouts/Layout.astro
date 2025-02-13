@@ -1,7 +1,6 @@
 ---
 import "../styles/globals.css"; 
-import '@fontsource/montserrat';
-import '@fontsource/roboto/700.css';
+import '@fontsource-variable/inter';
 ---
 
 <html lang="es">
@@ -16,9 +15,7 @@ import '@fontsource/roboto/700.css';
 		<title>Dario Martinez | Desarrollador Web Front-end</title>
 	</head>
 	<body>
-		<slot />
-		<script is:inline src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script is:inline>AOS.init();</script>		  
+		<slot />	  
 	</body>
 </html>
 

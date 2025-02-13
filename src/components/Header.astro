@@ -1,6 +1,8 @@
 ---
 import "../styles/header.css";
 import iconMenu from "../assets/icons/menu.svg"; 
+import iconGithub from "../assets/icons/icon-github.png";
+import iconLinkedin from "../assets/icons/icon-linkedin.png";
 ---
 
 <script>
@@ -18,18 +20,17 @@ import iconMenu from "../assets/icons/menu.svg";
         <img src={iconMenu.src} alt="menu bar header" width="30" height="30" class="icon-menu" id="menu" loading="lazy" />
         <h3 class="title-author">Dariomvg</h3>
         <div class="sub-nav">
-            <a href="#main" class="link-nav">Principal</a>
-            <a href="#proyectos" class="link-nav">Proyectos</a>
-            <a href="#habilidades" class="link-nav">Habilidades</a>
-            <a href="#sobre-mi" class="link-nav">Sobre mí</a>
-            <a href="#contactos" class="link-nav">Contactos</a>
+            <a href="#proyectos" class="link-nav link-sub">Proyectos</a>
+            <a href="#habilidades" class="link-nav link-sub">Habilidades</a>
+            <a href="#sobre-mi" class="link-nav link-sub">Sobre mí</a>
+            <a href="#contactos" class="link-nav link-sub">Contactos</a>
         </div>
         <div class="sub-nav">
             <a href="https://github.com/dariomvg" target="_blank" rel="noreferrer" class="link-nav">
-                Github
+                <img src={iconGithub.src} alt="icon link github" width="30" height="30" loading="lazy" >
             </a>
             <a href="https://www.linkedin.com/in/dariomvg" rel="noreferrer" target="_blank" class="link-nav">
-                Linkedin
+                <img src={iconLinkedin.src} alt="icon link linkedin" width="30" height="30" loading="lazy" >
             </a>
         </div>
     </nav>

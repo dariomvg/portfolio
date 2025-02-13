@@ -16,7 +16,5 @@ export interface ProjectsTypes {
     title: string,
     date: string,
     description: string,
-    link: string,
     repo: string,
-    aprox: boolean
 }

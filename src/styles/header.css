@@ -1,7 +1,6 @@
 .header {
   width: 70%;
-  background-color: transparent;
-  padding: 10px;
+  backdrop-filter: blur(10px);
   position: fixed;
   z-index: 999;
 }
@@ -12,13 +11,12 @@
 
 .nav {
   width: 100%;
-  border-radius: 30px;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1b1b1b6f;
-  backdrop-filter: blur(50px);
+  padding: 10px;
+  border-bottom:1px solid #aaa;
 }
 .title-author {
   color: #fff;
@@ -34,10 +32,12 @@
   color: #aaa;
   text-decoration: none;
   font-size: 18px;
+  border-bottom: 1px solid transparent;
   transition: 0.5s;
 }
-.link-nav:hover {
+.link-sub:hover {
   color: #fff;
+  border-color: #1898e4;
   transition: 0.5s;
 }
 
@@ -68,12 +68,13 @@
   }
   .nav {
     width: 100%;
-    height: 0;
+    height: 60px;
     background-color: transparent;
     flex-direction: column;
     gap: 16px;
     align-items: flex-start;
     border-radius: 0;
+    border: none; 
   }
   .sub-nav {
     opacity: 0;

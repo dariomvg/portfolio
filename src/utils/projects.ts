@@ -17,9 +17,7 @@ export const projects: ProjectsTypes[] = [
     title: "App peliculas",
     date: "Septiembre 2023",
     description: "Una aplicación de películas. Puedes buscar peliculas y series, ver detalles, traílers, próximas a salir y más",
-    link: "https://app-movies-chi.vercel.app/",
     repo: "https://github.com/dariomvg/movies-app",
-    aprox: true
   },
   {
     id: 2,
@@ -27,9 +25,7 @@ export const projects: ProjectsTypes[] = [
     title: "Kit elements",
     date: "Noviembre 2024",
     description: "Librería de paquetes en NPM con diferentes funciones como fechas, animaciones, componentesUI y efecto de maquina de escribir",
-    link: "https://docs-kit-elements.vercel.app",
     repo: "https://github.com/dariomvg/docs-kit-elements",
-    aprox: true
   },
   {
     id: 3,
@@ -37,9 +33,7 @@ export const projects: ProjectsTypes[] = [
     title: "App de notas",
     date: "Junio 2024",
     description: "Aplicación de notas. puedes usarlo para escribir, organizar, y almacenar notas de forma digital",
-    link: "https://notes-kappa-ashy.vercel.app/",
     repo: "https://github.com/dariomvg/notes",
-    aprox: true
   },
   {
     id: 4,
@@ -47,9 +41,7 @@ export const projects: ProjectsTypes[] = [
     title: "Blog bytes",
     date: "Mayo 2024",
     description: "Blog de tecnología. incluye artículos sobre tecnología, programación y desarrollo web",
-    link: "https://blog-bytes-kohl.vercel.app/",
     repo: "https://github.com/dariomvg/blog-bytes",
-    aprox: true
   },
   {
     id: 5,
@@ -57,9 +49,7 @@ export const projects: ProjectsTypes[] = [
     title: "Gestor de proyectos",
     date: "Agosto 2024",
     description: "Aplicación de gestión de proyectos. puedes crear y administrar proyectos, agregar tareas, seguir el progreso de cada proyecto",
-    link: "https://gestionar-proyectos.vercel.app/",
     repo: "https://github.com/dariomvg/gestionar-proyectos",
-    aprox: true
   },
     {
     id: 6,
@@ -67,9 +57,7 @@ export const projects: ProjectsTypes[] = [
     title: "TextLab",
     date: "Septiembre 2024",
     description: "Aplicación donde puedes crear editores de texto con múltiples herramientas, desde links hasta diferentes tamaños de texto",
-    link: "https://text-lab.vercel.app/",
     repo: "https://github.com/dariomvg/text-lab",
-    aprox: true
   },
   {
     id: 7,
@@ -77,9 +65,7 @@ export const projects: ProjectsTypes[] = [
     title: "Tasks fullstack",
     date: "Septiembre 2024",
     description: "Repositorio de una app de tareas, dónde puedes crear notas personales más subida de imágenes",
-    link: "",
     repo: "https://github.com/dariomvg/tasks-fullstack",
-    aprox: true
   },
   {
     id: 8,
@@ -87,9 +73,7 @@ export const projects: ProjectsTypes[] = [
     title: "Chats realtime",
     date: "Agosto 2024",
     description: "Repositorio de una app de creación de chats en tiempo real, con invitación privada con contraseñas, rápido y fáciil de usar",
-    link: "",
     repo: "https://github.com/dariomvg/chats-in-realtime",
-    aprox: true
   },
   {
     id: 9,
@@ -97,9 +81,7 @@ export const projects: ProjectsTypes[] = [
     title: "Gestor Group",
     date: "Septiembre 2024",
     description: "Gestor Group es una que cuenta con un editor de texto, un todoList, mensajes y en dónde puedes agregar colaboradores",
-    link: "https://gestor-group.vercel.app",
     repo: "https://github.com/dariomvg/gestor-group",
-    aprox: true
   },
   {
     id: 10,
@@ -107,9 +89,7 @@ export const projects: ProjectsTypes[] = [
     title: "Elige que comer",
     date: "Noviembre 2024",
     description: "Es una aplicación de comidas donde tienes una lista de comidas y cuenta con otro lista de comidas en ingles",
-    link: "https://elige-que-comer.vercel.app",
     repo: "https://github.com/dariomvg/elige-que-comer",
-    aprox: true
   },
   {
     id: 11,
@@ -117,19 +97,15 @@ export const projects: ProjectsTypes[] = [
     title: "App login con autenticación",
     date: "Septiembre 2024",
     description: "Es una aplicación de login que cuenta con autenticación, cookies, rutas protegidas y verificaciones",
-    link: "",
     repo: "https://github.com/dariomvg/app-auth",
-    aprox: true
   },
   {
     id: 12,
     icons: [iconNext, iconJs, iconCss],
     title: "Visualizador de algoritmos",
     date: "Octubre 2024",
-    description: "Puedes ver el paso  a paso de como funcionan los algoritmos complejos, probando cambiando el código y viendo el resultado",
-    link: "https://visualizador-algoritmos.vercel.app/",
+    description: "Míra el paso  a paso de como funcionan los algoritmos complejos, probando cambiando el código y viendo el resultado",
     repo: "https://github.com/dariomvg/visualizador-algoritmos",
-    aprox: true
   },
   {
     id: 13,
@@ -137,9 +113,7 @@ export const projects: ProjectsTypes[] = [
     title: "Que comer",
     date: "Octubre 2024",
     description: "Te elige una comida de latinoamérica aleatoria, cuenta con comidas de peru, brasil, uruguay, argentina",
-    link: "https://que-comer.vercel.app",
     repo: "https://github.com/dariomvg/que-comer",
-    aprox: true
   },
   {
     id: 14,
@@ -147,9 +121,7 @@ export const projects: ProjectsTypes[] = [
     title: "Change Images",
     date: "Diciembre 2024",
     description: "Aplicación para cambiar el formato de tus imagenes y optimizarlas al formato webp",
-    link: "https://change-images.vercel.app",
     repo: "https://github.com/dariomvg/change-images",
-    aprox: true
   },
   {
     id: 15,
@@ -157,9 +129,7 @@ export const projects: ProjectsTypes[] = [
     title: "App calendarUI",
     date: "Diciembre 2024",
     description: "Puedes organizar tus días, semanas o tu mes completo, agregando tus tareas, proyectos, etc.",
-    link: "https://calendar-ui-rho.vercel.app/",
     repo: "https://github.com/dariomvg/calendarUI",
-    aprox: true
   },
   {
     id: 16,
@@ -167,8 +137,6 @@ export const projects: ProjectsTypes[] = [
     title: "Docs-generator-readme",
     date: "Enero 2025",
     description: "Podes crear la documentación para tus proyectos. Usandoló como una base o para un README rápido",
-    link: "https://www.npmjs.com/package/docs-generator-readme",
     repo: "https://github.com/dariomvg/docs-generator-readme",
-    aprox: true
   },
 ];

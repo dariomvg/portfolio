@@ -6,12 +6,11 @@ interface Props {
     item: ProjectsTypes
 }
 const {item} = Astro.props;
-const {icons, title, date, description, link, repo, aprox} = item; 
+const {icons, title, date, description, repo} = item; 
 ---
 
-<div class="card-project" data-aos="fade-up" data-aos-delay="500" >
-    {!aprox && <p class="title-aprox">Próximamente</p>}
-    <div  class={`container-details-card ${aprox ? "" : "aprox"}`}>
+<a href={repo} target="_blank" rel="noreferrer" class="card-project">
+    <div  class="container-details-card">
         <div class="header-card">
             <div class="header-card-title">
                 <h3 class="title-card">{title}</h3>
@@ -22,13 +21,5 @@ const {icons, title, date, description, link, repo, aprox} = item;
             <strong class="date-card">{date}</strong>
         </div>
     <p class="description-card">{description}</p>
-    <div class="links-card">
-        {link ? (
-        <a href={link} rel="noreferrer" target="_blank" class="link-card">Visitar proyecto</a>
-        ) : (
-        <strong class="title-link">Solo repositorio</strong>
-        )}
-        <a href={repo} rel="noreferrer" target="_blank" class="link-card">Repositorio</a>
-    </div>
 </div>
-</div>
+</a>

@@ -1,6 +1,8 @@
 .section-projects{
     width: 100%;
-    padding: 10px;
+    padding: 10px 10px 60px 10px;
+    border-top: 1px solid #aaa;
+
 }
 
 .title-section-projects {

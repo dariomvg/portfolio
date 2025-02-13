@@ -2,23 +2,21 @@
     padding: 0; 
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    --color-violet: #86A8E7;
-    --color-blue: #5FFBF1;
-    --color-pink: #D16BA5;
-    
+    scroll-behavior: smooth; 
 }
 
 body {
     background-color: #030303;
     color: #fff;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
     overflow-x:hidden;
+    font-family: 'Inter Variable', sans-serif;
+    font-weight: 400;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Inter Variable', sans-serif;
+  font-weight: 900;
 }
 
 ::-webkit-scrollbar {

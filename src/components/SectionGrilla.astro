@@ -1,20 +1,18 @@
 ---
-import "../styles/grilla.css";
-import iconGithub from "../assets/icons/icon-github-grilla.png";
+import iconGithub from "../assets/icons/icon-github.png";
 import iconLinkedin from "../assets/icons/icon-linkedin.png";
-import iconPdf from "../assets/icons/icon-pdf-grilla.png";
-import iconDocs from "../assets/icons/icon-docs-grilla.png";
+import iconPdf from "../assets/icons/icon-pdf.png";
+import iconDocs from "../assets/icons/icon-docs.png";
+import iconTitle from "../assets/icons/icon-title.svg";
+import "../styles/grilla.css";
 ---
 
-<section class="section-grilla" id="contactos" data-aos="fade-up" data-aos-delay="500">
+<section class="section-grilla" id="contactos">
     <div class="grilla">
-        <div class="box-project">
-            <h2>Último proyecto subido</h2>
-            <div class="links-box-project">
-                <a href="https://www.npmjs.com/package/docs-generator-readme" rel="noreferrer" target="_blank" class="link-box-project">Visitar</a>
-                <a href="https://github.com/dariomvg/docs-generator-readme" rel="noreferrer" target="_blank" class="link-box-project">Repositorio</a>
-            </div>
-        </div>
+        <h2 class="title-section-skills">
+            Contactos
+            <img src={iconTitle.src} alt="chevron title" width="20" height="20" loading="lazy" />
+        </h2>
         <div class="section-links">
             <a href="https://github.com/dariomvg" rel="noreferrer" target="_blank" class="link-box">
                 <img src={iconGithub.src} width="40" height="40" alt="pdf" class="icon-grid" loading="lazy">

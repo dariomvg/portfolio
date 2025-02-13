@@ -3,78 +3,38 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    height: 40vh;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-color: transparent;
+    border-top: 1px solid #aaa;
+   
 }
 
 .grilla {
-    display: grid;
-    grid-template-columns: 2fr 1fr ;
-    gap: 8px;
-    box-shadow: 0 0 100px #41dfff;
-    background-color: #207181;
+    width: 100%;
 }
-
-
-.box-project {
-    border: 1px solid #41dfff;
-    border-radius: 5px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    background-color: #030303;
-}
-
-.box-project h2 {
-    font-size: 30px;
-}
-
-.links-box-project {
-    display: flex;
-    gap: 10px;
-}
-
-.link-box-project {
-    padding: 10px;
-    background-color: #ffffff;
-    color: #000;
-    text-decoration: none;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 5px;
-    width: 120px;
-}
-
-.link-box-project:hover {
-    box-shadow: 0 0 10px #484848;
-}
-
 
 .section-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 8px;
 }
 
 .link-box {
-    width: 150px;
+    width: 200px;
     height: 150px;
-    background-color: #030303;
-    border: 1px solid #41dfff;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 10px;
     text-align: center;
@@ -83,6 +43,7 @@
     cursor: pointer;
     transition: .5s;
     font-weight: bold;
+    background-color: #121212;
 }
 
 .link-box:hover {
