@@ -179,7 +179,7 @@ export const projects: ProjectsTypes[] = [
     title: "App historias",
     date: "Enero 2025",
     description:
-      "App que simula la subida de historias, con imagenes, tiempo de carga y registro simple",
+      "App que simula la subida de historias de una red social, con imagenes, tiempo de carga y registro simple",
     repo: "https://github.com/dariomvg/app-histories",
   },
 ];
