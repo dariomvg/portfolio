@@ -5,6 +5,8 @@
   border-radius: 3px;
   border: 2px solid #292929;
   text-decoration: none;
+  transition: border .5s;
+
 }
 .card-project:hover {
   border-color: #fff;
@@ -55,6 +57,27 @@
   gap: 10px;
   align-items: center;
 }
+
+.light .card-project {
+  background-color: #eaeaea90;
+  border: 1px solid  #ddd;
+}
+
+.light .card-project:hover {
+  border-color: #808080;
+}
+
+.light .title-card {
+  color: #202020;
+}
+.light  .date-card {
+  color: #202020;
+}
+.light .description-card {
+  color: #303030;
+}
+
+
 
 @media (max-width: 1024px) {
   .card-project {

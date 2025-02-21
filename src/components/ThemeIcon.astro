@@ -1,0 +1,21 @@
+---
+import "../styles/theme-icon.css";
+import iconMoon from "../assets/icons/moon.png";
+import iconSun from "../assets/icons/sun.svg";
+---
+
+<script>
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    
+    themeToggle.addEventListener('click', () => {
+        html.classList.toggle('light');
+    });
+</script>
+
+
+<button id="themeToggle">
+    <img src={iconMoon.src} width="25" height="25" class="icon-theme moon" />
+    <img src={iconSun.src} width="25" height="25" class="icon-theme sun" />
+</button>
+

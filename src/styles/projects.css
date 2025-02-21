@@ -20,6 +20,10 @@
     flex-wrap: wrap;
 }
 
+.light .title-section-projects {
+    color: #101010; 
+}
+
 @media (max-width: 768px) {
     .projects {
         justify-content: center;

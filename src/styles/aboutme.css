@@ -31,6 +31,14 @@
     color: #1898e4;
 }
 
+.light .title-section-about {
+    color: #101010;
+}
+
+.light .details-section-about {
+    color: #202020;
+}
+
 @media (max-width: 768px) {
     .section-about {
         height: auto;

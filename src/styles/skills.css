@@ -36,7 +36,6 @@
 .list-skills {
     width: 100%;
     display: flex;
-
     justify-content: space-between;
 } 
 
@@ -49,8 +48,12 @@
     flex-direction: column;
 }
 
-
-
+.light .title-section-skills {
+    color: #101010
+}
+.light .detail-section-skills {
+    color: #202020
+}
 @media (max-width: 768px) {
     .section-skills {
         height: auto;

@@ -17,7 +17,7 @@ export const projects: ProjectsTypes[] = [
     title: "App peliculas",
     date: "Septiembre 2023",
     description:
-      "Una aplicación de películas. Puedes buscar peliculas y series, ver detalles, traílers, próximas a salir y más",
+      "Una aplicación de películas. Puedes buscar peliculas y series, ver detalles, traílers, próximas a salir y más.",
     repo: "https://github.com/dariomvg/movies-app",
   },
   {
@@ -26,7 +26,7 @@ export const projects: ProjectsTypes[] = [
     title: "Kit elements",
     date: "Noviembre 2024",
     description:
-      "Librería de paquetes en NPM con diferentes funciones como fechas, animaciones, componentesUI y efecto de maquina de escribir",
+      "Librería de paquetes en NPM con diferentes funciones como fechas, animaciones, componentesUI y efecto de maquina de escribir.",
     repo: "https://github.com/dariomvg/kit-elements",
   },
   {
@@ -35,7 +35,7 @@ export const projects: ProjectsTypes[] = [
     title: "App de notas",
     date: "Junio 2024",
     description:
-      "Aplicación de notas. puedes usarlo para escribir, organizar, y almacenar notas de forma digital",
+      "Aplicación de notas. puedes usarlo para escribir, organizar, y almacenar notas de forma digital.",
     repo: "https://github.com/dariomvg/notes",
   },
   {
@@ -44,7 +44,7 @@ export const projects: ProjectsTypes[] = [
     title: "Blog bytes",
     date: "Mayo 2024",
     description:
-      "Blog de tecnología. incluye artículos sobre tecnología, programación y desarrollo web",
+      "Blog de tecnología. incluye artículos sobre tecnología, programación y desarrollo web.",
     repo: "https://github.com/dariomvg/blog-bytes",
   },
   {
@@ -53,7 +53,7 @@ export const projects: ProjectsTypes[] = [
     title: "Gestor de proyectos",
     date: "Agosto 2024",
     description:
-      "Aplicación de gestión de proyectos. puedes crear y administrar proyectos, agregar tareas, seguir el progreso de cada proyecto",
+      "Aplicación de gestión de proyectos. puedes crear y administrar proyectos, agregar tareas, seguir el progreso de cada proyecto.",
     repo: "https://github.com/dariomvg/gestionar-proyectos",
   },
   {
@@ -62,7 +62,7 @@ export const projects: ProjectsTypes[] = [
     title: "TextLab",
     date: "Septiembre 2024",
     description:
-      "Aplicación donde puedes crear editores de texto con múltiples herramientas, desde links hasta diferentes tamaños de texto",
+      "Aplicación donde puedes crear editores de texto con múltiples herramientas, desde links hasta diferentes tamaños de texto.",
     repo: "https://github.com/dariomvg/text-lab",
   },
   {
@@ -71,7 +71,7 @@ export const projects: ProjectsTypes[] = [
     title: "Tasks fullstack",
     date: "Septiembre 2024",
     description:
-      "Repositorio de una app de tareas, dónde puedes crear notas personales más subida de imágenes",
+      "Repositorio de una app de tareas, dónde puedes crear notas personales más subida de imágenes.",
     repo: "https://github.com/dariomvg/tasks-fullstack",
   },
   {
@@ -80,7 +80,7 @@ export const projects: ProjectsTypes[] = [
     title: "Chats realtime",
     date: "Agosto 2024",
     description:
-      "Repositorio de una app de creación de chats en tiempo real, con invitación privada con contraseñas, rápido y fáciil de usar",
+      "Repositorio de una app de creación de chats en tiempo real, con invitación privada con contraseñas, rápido y fáciil de usar.",
     repo: "https://github.com/dariomvg/chats-in-realtime",
   },
   {
@@ -89,7 +89,7 @@ export const projects: ProjectsTypes[] = [
     title: "Gestor Group",
     date: "Septiembre 2024",
     description:
-      "Gestor Group es una que cuenta con un editor de texto, un todoList, mensajes y en dónde puedes agregar colaboradores",
+      "Gestor Group es una que cuenta con un editor de texto, un todoList, mensajes y en dónde puedes agregar colaboradores.",
     repo: "https://github.com/dariomvg/gestor-group",
   },
   {
@@ -98,7 +98,7 @@ export const projects: ProjectsTypes[] = [
     title: "Elige que comer",
     date: "Noviembre 2024",
     description:
-      "Es una aplicación de comidas donde tienes una lista de comidas y cuenta con otro lista de comidas en ingles",
+      "Es una aplicación de comidas donde tienes una lista de comidas y cuenta con otro lista de comidas en ingles.",
     repo: "https://github.com/dariomvg/elige-que-comer",
   },
   {
@@ -107,7 +107,7 @@ export const projects: ProjectsTypes[] = [
     title: "App login con autenticación",
     date: "Septiembre 2024",
     description:
-      "Es una aplicación de login que cuenta con autenticación, cookies, rutas protegidas y verificaciones",
+      "Es una aplicación de login que cuenta con autenticación, cookies, rutas protegidas y verificaciones.",
     repo: "https://github.com/dariomvg/app-auth",
   },
   {
@@ -116,7 +116,7 @@ export const projects: ProjectsTypes[] = [
     title: "Visualizador de algoritmos",
     date: "Octubre 2024",
     description:
-      "Míra el paso  a paso de como funcionan los algoritmos complejos, probando cambiando el código y viendo el resultado",
+      "Míra el paso  a paso de como funcionan los algoritmos complejos, probando cambiando el código y viendo el resultado.",
     repo: "https://github.com/dariomvg/visualizador-algoritmos",
   },
   {
@@ -125,7 +125,7 @@ export const projects: ProjectsTypes[] = [
     title: "Que comer",
     date: "Octubre 2024",
     description:
-      "Te elige una comida de latinoamérica aleatoria, cuenta con comidas de peru, brasil, uruguay, argentina",
+      "Te elige una comida de latinoamérica aleatoria, cuenta con comidas de brasil, uruguay, argentina. etc.",
     repo: "https://github.com/dariomvg/que-comer",
   },
   {
@@ -134,7 +134,7 @@ export const projects: ProjectsTypes[] = [
     title: "Change Images",
     date: "Diciembre 2024",
     description:
-      "Aplicación para cambiar el formato de tus imagenes y optimizarlas al formato webp",
+      "Aplicación para cambiar el formato de tus imagenes y optimizarlas al formato webp.",
     repo: "https://github.com/dariomvg/change-images",
   },
   {
@@ -152,7 +152,7 @@ export const projects: ProjectsTypes[] = [
     title: "Docs-generator-readme",
     date: "Enero 2025",
     description:
-      "Podes crear la documentación para tus proyectos. Usandoló como una base o para un README rápido",
+      "Crea una documentación simple y rápida para tus proyectos. Con un solo comando.",
     repo: "https://github.com/dariomvg/docs-generator-readme",
   },
   {
@@ -170,7 +170,7 @@ export const projects: ProjectsTypes[] = [
     title: "Chat IA",
     date: "Febrero 2025",
     description:
-      "Chat con IA, para preguntas o conversaciones, añadiendo movilidad al chat",
+      "Chat con IA, para preguntas o conversaciones, añadiendo movilidad al chat.",
     repo: "https://github.com/dariomvg/chat-ia",
   },
   {
@@ -179,7 +179,14 @@ export const projects: ProjectsTypes[] = [
     title: "App historias",
     date: "Enero 2025",
     description:
-      "App que simula la subida de historias de una red social, con imagenes, tiempo de carga y registro simple",
+      "App que simula la subida de historias de una red social, con imagenes, tiempo de carga y registro simple.",
     repo: "https://github.com/dariomvg/app-histories",
-  },
+  },{
+    id: 20,
+    icons: [iconJs, iconNode, iconExpress, iconPostgres],
+    title: "Dev playground",
+    date: "Febrero 2025",
+    description: "Módulos de código de algunas herramientas para aprender y acelerar tu desarrollo.",
+    repo: "https://github.com/dariomvg/dev-playground"
+  }
 ];

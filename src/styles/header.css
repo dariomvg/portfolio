@@ -57,6 +57,22 @@
   display: flex;
 }
 
+.light .link-nav{
+  color: #202020;
+}
+.light  .title-author{
+  color: #202020;
+}
+.light .link-nav{
+  color: #202020;
+}
+.light .nav {
+  background-color: #d7d7d790;
+  border-bottom-color: #808080;
+}
+
+
+
 @media (max-width: 768px) {
   .header {
     width: 100%;

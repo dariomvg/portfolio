@@ -1,0 +1,21 @@
+#themeToggle  {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-theme {
+    cursor: pointer; 
+}
+
+.moon {
+    display: none;
+}
+
+.light .sun {
+    display: none;
+}
+
+.light .moon {
+    display: flex;
+}

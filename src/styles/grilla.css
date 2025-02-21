@@ -53,10 +53,18 @@
     border-color: transparent;
 }
 
+.light .link-box {
+    background-color: #d7d7d790;
+    color: #202020;
+    transition: .5s;
+}
+
+.light .link-box:hover {
+    border: 1px solid #808080;
+    transition: .5s;
+}
+
 @media (max-width: 768px) {
-    .section-grilla {
-       
-    }
 
     .grilla {
         width: 100%;

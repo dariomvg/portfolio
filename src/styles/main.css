@@ -2,11 +2,19 @@
     width: 70%;
     margin: auto;
     background-color: #030303;
-
     position: relative;
     z-index: 99;
     color: #fff;
+    transition: .5s;
+
 }
+
+.light .main {
+    background-color: #f5f5f5; 
+    color: #000;
+    transition: .5s;
+
+} 
 
 @media (max-width: 768px) {
     .main {
