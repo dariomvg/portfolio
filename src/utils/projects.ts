@@ -31,15 +31,6 @@ export const projects: ProjectsTypes[] = [
   },
   {
     id: 3,
-    icons: [iconReact, iconJs, iconCss, iconType],
-    title: "App de notas",
-    date: "Junio 2024",
-    description:
-      "Aplicación de notas. puedes usarlo para escribir, organizar, y almacenar notas de forma digital.",
-    repo: "https://github.com/dariomvg/notes",
-  },
-  {
-    id: 4,
     icons: [iconAstro, iconJs, iconCss],
     title: "Blog bytes",
     date: "Mayo 2024",
@@ -48,7 +39,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/blog-bytes",
   },
   {
-    id: 5,
+    id:4,
     icons: [iconNext, iconJs, iconCss, iconType],
     title: "Gestor de proyectos",
     date: "Agosto 2024",
@@ -57,7 +48,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/gestionar-proyectos",
   },
   {
-    id: 6,
+    id: 5,
     icons: [iconNext, iconJs, iconCss, iconType],
     title: "TextLab",
     date: "Septiembre 2024",
@@ -66,7 +57,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/text-lab",
   },
   {
-    id: 7,
+    id: 6,
     icons: [iconNext, iconJs, iconCss, iconSupabase],
     title: "Tasks fullstack",
     date: "Septiembre 2024",
@@ -75,7 +66,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/tasks-fullstack",
   },
   {
-    id: 8,
+    id: 7,
     icons: [iconReact, iconJs, iconExpress, iconPostgres],
     title: "Chats realtime",
     date: "Agosto 2024",
@@ -84,7 +75,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/chats-in-realtime",
   },
   {
-    id: 9,
+    id: 8,
     icons: [iconNext, iconJs, iconCss, iconSupabase, iconType],
     title: "Gestor Group",
     date: "Septiembre 2024",
@@ -93,16 +84,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/gestor-group",
   },
   {
-    id: 10,
-    icons: [iconNext, iconJs, iconCss],
-    title: "Elige que comer",
-    date: "Noviembre 2024",
-    description:
-      "Es una aplicación de comidas donde tienes una lista de comidas y cuenta con otro lista de comidas en ingles.",
-    repo: "https://github.com/dariomvg/elige-que-comer",
-  },
-  {
-    id: 11,
+    id: 9,
     icons: [iconNext, iconJs, iconCss, iconExpress],
     title: "App login con autenticación",
     date: "Septiembre 2024",
@@ -111,7 +93,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/app-auth",
   },
   {
-    id: 12,
+    id: 10,
     icons: [iconNext, iconJs, iconCss],
     title: "Visualizador de algoritmos",
     date: "Octubre 2024",
@@ -120,7 +102,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/visualizador-algoritmos",
   },
   {
-    id: 13,
+    id: 11,
     icons: [iconAstro, iconJs, iconCss, iconType],
     title: "Que comer",
     date: "Octubre 2024",
@@ -129,7 +111,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/que-comer",
   },
   {
-    id: 14,
+    id: 12,
     icons: [iconNext, iconJs, iconCss, iconExpress, iconType],
     title: "Change Images",
     date: "Diciembre 2024",
@@ -138,7 +120,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/change-images",
   },
   {
-    id: 15,
+    id: 13,
     icons: [iconNext, iconCss, iconType],
     title: "App calendarUI",
     date: "Diciembre 2024",
@@ -147,7 +129,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/calendarUI",
   },
   {
-    id: 16,
+    id: 14,
     icons: [iconJs, iconNode],
     title: "Docs-generator-readme",
     date: "Enero 2025",
@@ -156,7 +138,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/docs-generator-readme",
   },
   {
-    id: 17,
+    id: 15,
     icons: [iconType, iconPostgres, iconNext],
     title: "Lista de temas",
     date: "Febrero 2025",
@@ -165,16 +147,7 @@ export const projects: ProjectsTypes[] = [
     repo: "https://github.com/dariomvg/app-list-topicse",
   },
   {
-    id: 18,
-    icons: [iconNext, iconType, iconCss],
-    title: "Chat IA",
-    date: "Febrero 2025",
-    description:
-      "Chat con IA, para preguntas o conversaciones, añadiendo movilidad al chat.",
-    repo: "https://github.com/dariomvg/chat-ia",
-  },
-  {
-    id: 19,
+    id: 16,
     icons: [iconType, iconNext, iconCss],
     title: "App historias",
     date: "Enero 2025",
@@ -182,11 +155,35 @@ export const projects: ProjectsTypes[] = [
       "App que simula la subida de historias de una red social, con imagenes, tiempo de carga y registro simple.",
     repo: "https://github.com/dariomvg/app-histories",
   },{
-    id: 20,
+    id: 17,
     icons: [iconJs, iconNode, iconExpress, iconPostgres],
     title: "Dev playground",
     date: "Febrero 2025",
     description: "Módulos de código de algunas herramientas para aprender y acelerar tu desarrollo.",
     repo: "https://github.com/dariomvg/dev-playground"
+  },
+  {
+    id: 18,
+    icons: [iconType, iconNext, iconCss],
+    title: "Fast-stock-api",
+    date: "Marzo 2025",
+    description: "API RESTful que brinda productos y categorías, optimizada para la integración con un ecommerce u otros proyectos.",
+    repo: "https://github.com/dariomvg/docs-fast-stock-api"
+  },
+  {
+    id: 19,
+    icons: [iconJs, iconNode, iconExpress],
+    title: "E-commerce con fast-stock",
+    date: "Marzo 2025",
+    description: "Ecommerce conectada a una API personalizada(fast-stock-api) para gestionar productos.",
+    repo: "https://github.com/dariomvg/e-commerce-fast-stock"
+  },
+  {
+    id: 20,
+    icons: [],
+    title: "Más próximamente",
+    date: "2025...",
+    description: "",
+    repo: ""
   }
 ];

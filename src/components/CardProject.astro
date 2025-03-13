@@ -9,7 +9,7 @@ const {item} = Astro.props;
 const {icons, title, date, description, repo} = item; 
 ---
 
-<a href={repo} target="_blank" rel="noreferrer" class="card-project">
+<a href={repo} target={`${repo ? "_blank" : "_self"}`} rel="noreferrer" class="card-project">
     <div  class="container-details-card">
         <div class="header-card">
             <div class="header-card-title">
