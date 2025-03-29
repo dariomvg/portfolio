@@ -13,7 +13,7 @@ import type { ProjectsTypes } from "../types/utils.types";
 export const projects: ProjectsTypes[] = [
   {
     id: 1,
-    icons: [iconNext, iconJs, iconCss],
+    icons: [iconReact, iconType, iconCss],
     title: "App peliculas y TV",
     date: "Marzo 2025",
     description:
