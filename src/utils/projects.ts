@@ -14,11 +14,11 @@ export const projects: ProjectsTypes[] = [
   {
     id: 1,
     icons: [iconNext, iconJs, iconCss],
-    title: "App peliculas",
-    date: "Septiembre 2023",
+    title: "App peliculas y TV",
+    date: "Marzo 2025",
     description:
-      "Una aplicación de películas. Puedes buscar peliculas y series, ver detalles, traílers, próximas a salir y más.",
-    repo: "https://github.com/dariomvg/movies-app",
+      "Una aplicación de películas, series y TV. Puedes buscar peliculas y series, ver detalles, traílers, próximas a salir y más.",
+    repo: "https://github.com/dariomvg/app-movies-tv",
   },
   {
     id: 2,
